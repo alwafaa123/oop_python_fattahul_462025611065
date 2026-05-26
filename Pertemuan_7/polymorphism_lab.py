@@ -1,7 +1,6 @@
 
 class AlatPembayaran:
     def proses_bayar(self, jumlah):
-        # Metode dasar yang nanti akan di-override oleh anak kelasnya
         raise NotImplementedError("Subclass harus mengimplementasikan metode ini!")
 
 class KartuKredit(AlatPembayaran):
