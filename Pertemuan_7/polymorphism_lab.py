@@ -18,8 +18,7 @@ class EWallet(AlatPembayaran):
         self.nomor_hp = nomor_hp
 
     def proses_bayar(self, jumlah):
-        # Logika unik untuk E-Wallet (ada cashback)
-        cashback = jumlah * 0.05  # Cashback 5%
+        cashback = jumlah * 0.05  
         print(f"[E-Wallet {self.nomor_hp}] Memproses pembayaran...")
         print(f"-> Uang keluar: Rp{jumlah} | Anda mendapatkan Cashback: Rp{int(cashback)}")
 
